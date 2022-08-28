@@ -1,27 +1,19 @@
-# Next.js + Tailwind CSS Example
+# NextJS with Apollo-Client
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+[BoxOffice Rank](https://boxoffice-rank-xyxzm.run.goorm.io/)
 
-## Deploy your own
+이전에 만든 [아폴로 서버](https://movie-server-vpdvl.run.goorm.io)를 바탕으로 만들었다.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## PREVIEW
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+![Alt text](/images/preview1.png)
 
-## How to use
+## DESCRIPTION
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+기본 배너는 매번 바뀝니다.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+밑에 영화들은 박스오피스 랭킹 순으로 나열되어 있고 클릭시 해당 영화 이미지로 배너가 바뀌며, 설명 부분도 해당 영화의 설명으로 바뀝니다.
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## STACK
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+NextJS(TypeScript) + Tailwind CSS + Apollo-Client
